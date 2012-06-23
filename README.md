@@ -67,7 +67,9 @@ fragment is created.
 In models.py:
 
     from django_icache import icache
+    ... some imports ...
    
+    class Movie(models.Model):
     ... some code ...
 
     def movie_cache_post_save(sender, **kwargs):
