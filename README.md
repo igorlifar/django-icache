@@ -3,7 +3,7 @@
 ## About
 
 This is Django app for "timeout-less" caching. It uses Django cache
-frame work in the background, so cache backend configuration is absolutely
+framework in the background, so cache backend configuration is absolutely
 the same, as it has been. You can use Django cache framework for additional
 caching as well.
 
